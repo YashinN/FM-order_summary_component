@@ -1,5 +1,6 @@
 import "./OrderSummary.css";
 import HeroIllustration from "../Svg_Components/HeroIllustration";
+import OrderPlan from "./OrderPlan";
 
 const OrderSummary = () => {
   return (
@@ -12,6 +13,7 @@ const OrderSummary = () => {
             You can now listen to millions of songs, audiobooks, and podcasts on
             any device anywhere you like!
           </p>
+          <OrderPlan />
         </div>
       </div>
     </div>
