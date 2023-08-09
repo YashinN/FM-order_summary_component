@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
 .bg-container {
   background-color: hsl(225, 100%, 94%);
   height: 100vh;
@@ -11,6 +17,7 @@
   background-color: #fff;
   max-width: 450px;
   max-height: 697px;
+  border-radius: 20px;
 }
 
 .summary-details {
@@ -19,15 +26,20 @@
 
 .text-center {
   text-align: center;
+  font-weight: 500;
 }
 
 .title {
   margin-bottom: 17px;
   margin-top: 45px;
   font-size: 28px;
+  font-weight: 900;
+  color: #1f2e55;
 }
 
 .text {
   margin-bottom: 20px;
   font-size: 16px;
+  color: #717fa6;
+  font-weight: 500;
 }
