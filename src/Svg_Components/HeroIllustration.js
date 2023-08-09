@@ -1,6 +1,7 @@
 const HeroIllustration = () => {
   return (
     <svg
+      className="hero-icon"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="450"
