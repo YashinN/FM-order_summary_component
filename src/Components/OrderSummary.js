@@ -1,10 +1,11 @@
 import "./OrderSummary.css";
+import HeroIllustration from "../Svg_Components/HeroIllustration";
 
 const OrderSummary = () => {
   return (
     <div className="container-fluid bg-container">
       <div className="container summary-card">
-        <img src="/images/" alt="" />
+        <HeroIllustration />
       </div>
     </div>
   );

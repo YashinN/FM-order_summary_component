@@ -2,7 +2,7 @@ const HeroIllustration = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       width="450"
       height="220"
     >
@@ -11,9 +11,9 @@ const HeroIllustration = () => {
       </defs>
       <g fill="none" fill-rule="evenodd">
         <mask id="b" fill="#fff">
-          <use xlink:href="#a" />
+          <use xlinkHref="#a" />
         </mask>
-        <use fill="#382AE1" xlink:href="#a" />
+        <use fill="#382AE1" xlinkHref="#a" />
         <path
           fill="#1E1FCD"
           fill-rule="nonzero"
