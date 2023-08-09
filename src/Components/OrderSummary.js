@@ -14,6 +14,7 @@ const OrderSummary = () => {
             any device anywhere you like!
           </p>
           <OrderPlan />
+          <button className="payment-btn">Proceed to Payment</button>
         </div>
       </div>
     </div>
