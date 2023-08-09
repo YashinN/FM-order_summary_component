@@ -1,0 +1,38 @@
+.order-box {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 11px;
+  margin-bottom: 32px;
+}
+
+.plan-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+.plan-type {
+  color: #1f2e55;
+  font-weight: 700;
+}
+
+.price {
+  color: #717fa6;
+  font-weight: 500;
+}
+
+.plan-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.order-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.change-tag {
+  color: #382ae1;
+  font-size: 14px;
+}
