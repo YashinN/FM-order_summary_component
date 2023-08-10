@@ -84,3 +84,9 @@
 .cancel-btn:active {
   color: #7b71e8;
 }
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}

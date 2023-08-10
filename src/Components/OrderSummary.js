@@ -6,6 +6,11 @@ const OrderSummary = () => {
   return (
     <div className="container-fluid bg-container">
       <div className="container summary-card p-0">
+        <img
+          src="/images/illustration-hero.svg"
+          alt="music"
+          className="hero-img"
+        />
         <div className="container summary-details ">
           <h1 className="text-center title">Order Summary</h1>
           <p className="text-center text">
