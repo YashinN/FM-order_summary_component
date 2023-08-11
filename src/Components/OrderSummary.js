@@ -5,6 +5,19 @@ import OrderPlan from "./OrderPlan";
 const OrderSummary = () => {
   return (
     <div className="container-fluid bg-container">
+      <div className="bg-svg container-fluid p-0">
+        <img
+          src="/images/pattern-background-desktop.svg"
+          alt=""
+          className="bg-dsk"
+        />
+
+        <img
+          src="/images/pattern-background-desktop.svg"
+          alt=""
+          className="bg-mobi"
+        />
+      </div>
       <div className="container summary-card p-0">
         <img
           src="/images/illustration-hero.svg"
